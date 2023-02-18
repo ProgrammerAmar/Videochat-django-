@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def lobby(request):
-    return render(request, 'base/login.html')
+    return render(request, 'base/lobby.html')
 
 
 def room(request):
